@@ -1,4 +1,4 @@
-package Arrays;
+package ArraysQuestions;
 
 import java.util.ArrayList;
 
@@ -20,6 +20,9 @@ public class PickFromBothSides {
             tempSum += A.get(j);
             sumTillB = Math.max(tempSum, sumTillB);
         }
+
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+//        list.get(0).set(0, )
         return sumTillB;
     }
 }
